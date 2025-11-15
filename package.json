@@ -1,5 +1,5 @@
 {
-  "name": "@fmaplabs/shopify-polaris-webcomponent-types-sveltekit",
+  "name": "@fmaplabs/polaris-types-sveltekit",
   "version": "1.0.0",
   "description": "TypeScript type definitions for Shopify App Home and UI Extension web components with SvelteKit support",
   "keywords": [
