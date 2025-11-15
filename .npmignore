@@ -1,0 +1,21 @@
+# Documentation source files (not needed for types package)
+Overview/
+apis/
+app-bridge-web-components/
+polaris-web-components/
+patterns/
+admin-extensions-2025-10/
+checkout-ui-extensions-2025-10/
+customer-account-ui-extensions-2025-10/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,47 @@
+{
+  "name": "@fmaplabs/shopify-polaris-webcomponent-types-sveltekit",
+  "version": "1.0.0",
+  "description": "TypeScript type definitions for Shopify App Home and UI Extension web components with SvelteKit support",
+  "keywords": [
+    "shopify",
+    "typescript",
+    "types",
+    "sveltekit",
+    "svelte",
+    "web-components",
+    "polaris",
+    "app-bridge",
+    "admin-extensions",
+    "checkout-extensions",
+    "customer-account-extensions"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fmaplabs/app-home"
+  },
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts"
+    },
+    "./app-home": {
+      "types": "./shopify-app-home.d.ts"
+    },
+    "./admin-extensions": {
+      "types": "./shopify-admin-extensions.d.ts"
+    },
+    "./checkout-extensions": {
+      "types": "./shopify-checkout-ui-extensions.d.ts"
+    },
+    "./customer-account-extensions": {
+      "types": "./shopify-customer-account-ui-extensions.d.ts"
+    }
+  },
+  "files": [
+    "*.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false
+}
